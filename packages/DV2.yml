@@ -3,44 +3,51 @@ config:
     nodeTypes:
       "12":
         defaultStorageLocation: null
-        isDisabled: true
+        isDisabled: false
       "13":
         defaultStorageLocation: null
-        isDisabled: true
+        isDisabled: false
       "14":
         defaultStorageLocation: null
-        isDisabled: true
+        isDisabled: false
       "18":
         defaultStorageLocation: null
-        isDisabled: true
+        isDisabled: false
       "21":
         defaultStorageLocation: null
-        isDisabled: true
+        isDisabled: false
       "23":
         defaultStorageLocation: null
-        isDisabled: true
+        isDisabled: false
       "24":
         defaultStorageLocation: null
-        isDisabled: true
+        isDisabled: false
       "27":
         defaultStorageLocation: null
-        isDisabled: true
+        isDisabled: false
       "4":
         defaultStorageLocation: null
-        isDisabled: true
+        isDisabled: false
       "6":
         defaultStorageLocation: null
-        isDisabled: true
+        isDisabled: false
       "7":
         defaultStorageLocation: null
-        isDisabled: true
+        isDisabled: false
       "8":
         defaultStorageLocation: null
-        isDisabled: true
+        isDisabled: false
       "9":
         defaultStorageLocation: null
-        isDisabled: true
+        isDisabled: false
   packageVariables: |-
+    {#------------------------------------------------------------------------------------------------------#}
+    {#-- Global variables of datavault4coalesce                                                           --#}
+    {#--                                                                                                  --#}
+    {#-- The following variables can be customized to implement your own DV standard definition.          --#}
+    {#-- They will be used in the macros found below.                                                     --#}
+    {#-- Refer to official wiki: https://github.com/ScalefreeCOM/datavault4coalesce/wiki/Global-variables --#}
+    {#------------------------------------------------------------------------------------------------------#}
     {%- set datavault4coalesce = namespace(
          config = {
          "ldts_alias": "LDTS",
@@ -70,7 +77,7 @@ config:
     ) -%}
 fileVersion: 1
 id: "@coalesce/data-vault-by-scalefree"
-name: DV
+name: DV2
 packageID: "@coalesce/data-vault-by-scalefree"
-releaseID: 566b48af-b2b1-4f04-84ae-b854f2bd4ce1
+releaseID: 213afc7e-5153-4511-bee6-a996f3fe1e5d
 type: Package
